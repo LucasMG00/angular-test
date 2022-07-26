@@ -6,15 +6,13 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { StarComponent } from './shared/components/stars/stars.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { Error404Component } from './error-404/error-404.component';
 import { TodoModule } from './components/todo.module';
+import { CoreModule } from './core/components/core.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
     Error404Component
   ],
   imports: [
@@ -22,6 +20,7 @@ import { TodoModule } from './components/todo.module';
     FormsModule,
     HttpClientModule,
     TodoModule,
+    CoreModule,
     RouterModule.forRoot([
       {
         path: '', redirectTo: 'todos', pathMatch: 'full'
