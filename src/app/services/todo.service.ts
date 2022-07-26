@@ -14,14 +14,20 @@ export class TodoService {
 var TODOS: Todo[] = [
     {
         id: 1,
-        name: 'TODO',
-        imageUrl: '/assets/images/LMG LOGO.ico',
-        stars: 3
+        name: 'TO-DO Java',
+        imageUrl: '/assets/images/java.png',
+        stars: 4
     },
     {
         id: 2,
-        name: 'TODO2',
-        imageUrl: '/assets/images/STORAGE LOGO.ico',
-        stars: 4
+        name: 'TO-DO Angular',
+        imageUrl: '/assets/images/angular.png',
+        stars: 3
+    },
+    {
+        id: 3,
+        name: 'TO-DO Html',
+        imageUrl: './assets/images/html.png',
+        stars: 3.5
     }
 ]
