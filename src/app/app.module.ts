@@ -6,14 +6,12 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { Error404Component } from './error-404/error-404.component';
 import { TodoModule } from './components/todo.module';
 import { CoreModule } from './core/components/core.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Error404Component
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -24,9 +22,6 @@ import { CoreModule } from './core/components/core.module';
     RouterModule.forRoot([
       {
         path: '', redirectTo: 'todos', pathMatch: 'full'
-      },
-      {
-        path: '**', component: Error404Component
       }
     ])
   ],
