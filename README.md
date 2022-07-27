@@ -2,8 +2,8 @@
 
 `!!!` Essa aplicação tem implementação de server back-end simples, para fazê-la funcionar: copie os 2 arquivos no diretório ``` src\assets\server\ ```, crie uma pasta própria para o server fora da pasta do projeto e cole esses 2 arquivos. Com o Prompt de Comando (ou qualuqer outra aplicação do gênero de sua escolha) digite os seguintes comandos:  
 ```
-npm install                -irá inicializar o node dentro da pasta
-node serve.js              -irá inicializar o servidor, se der certo a mensagem "Server Started!" será mostrada no cmd
+npm install           -irá inicializar o node dentro da pasta
+node serve.js         -irá inicializar o servidor, se der certo a mensagem "Server Started!" será mostrada no cmd
 ```  
 Sem Isso, a aplicação vai abrir a página de erro por padrão.
 
