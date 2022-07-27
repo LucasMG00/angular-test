@@ -5,7 +5,8 @@
 npm install           -irá inicializar o node dentro da pasta
 node serve.js         -irá inicializar o servidor, se der certo a mensagem "Server Started!" será mostrada no cmd
 ```  
-Sem Isso, a aplicação vai abrir a página de erro por padrão.
+Mantenha o cmd aberto com o server inicializado para que a aplicação funcione corretamente;  
+Sem isso, a aplicação vai abrir a página de erro por padrão.
 
 ## Development server
 
