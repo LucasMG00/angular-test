@@ -11,6 +11,9 @@ import { NavBarComponent } from "./nav-bar/nav-bar.component";
     imports: [
         RouterModule.forChild([
       {
+            path: '', redirectTo: 'todos', pathMatch: 'full'
+      },
+      {
         path: '**', component: Error404Component
       }
         ])

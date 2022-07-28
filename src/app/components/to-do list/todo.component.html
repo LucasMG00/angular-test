@@ -1,12 +1,16 @@
-<h2>TODO list</h2>
+<h2 style="text-align: center">TODO List</h2>
 
 <div class="form-group row">
     
-    <label class="col-sm-2 col-form-label">Filter By:</label>
+    <label class="col-sm-2 col-form-label">Filter by Name:</label>
 
     <div class="col-sm-10">
         <input [(ngModel)]="filter" class="form-control">
     </div>
+
+    <button class="btn btn-primary my-4 float-end">
+        Create new Register
+    </button>
 
 </div>
 
@@ -17,6 +21,7 @@
             <th>Id</th>
             <th>Name</th>
             <th>Stars</th>
+            <th colspan="2"></th>
         </tr>
     </thead>
 
@@ -27,6 +32,12 @@
             <td>{{ todo.name }}</td>
             <td>
                 <app-stars [star]="todo.stars"></app-stars>
+            </td>
+            <td>
+                <button class="btn btn-success">Edit</button>
+            </td>
+            <td>
+                <button class="btn btn-danger">Delete</button>
             </td>
         </tr>
     </tbody>

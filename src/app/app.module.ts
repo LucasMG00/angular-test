@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { TodoModule } from './components/todo.module';
+import { TodoModule } from './components/to-do list/todo.module';
 import { CoreModule } from './core/components/core.module';
 
 @NgModule({
